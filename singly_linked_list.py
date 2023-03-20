@@ -1,6 +1,6 @@
 
 class Cell:
-    def __init__(self, value: int =None):
+    def __init__(self, value):
         self.value = value
         self.next = None
 
@@ -85,3 +85,5 @@ mylist.add_to_start(4)
 mylist.add_to_start(5)
 mylist.add_to_start(6)
 mylist.add_to_start(7)
+
+
